@@ -1,0 +1,107 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header{
+	background-image: url("./public_html/sikuman/image/background/latar2.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:#191970;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s;
+	line-height: 50px;
+}
+ul li a:hover{
+	background-color:#BA55D3;
+	color: white;
+}
+ul li a.active{
+	background-color:#BA55D3;
+	color: white;
+}
+.main{
+	max-width:1200px; 
+	margin: auto;
+	position: sticky;
+}
+.title{
+	position: absolute;
+	top: 250px;
+	right: 200px;
+	transform: translate(-50%, -50%);
+}
+.title h1{
+	color: white;
+	font-size: 100px;
+	text-decoration: none;
+
+}
+.title h4{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	position: absolute;
+	right: 70px;
+}
+.search-box{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background:#2F3640
+}
+.search-btn{
+color: #E84118;
+float: right;	
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: #2F3640
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.button{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%,-60%);
+}
+.btn1{
+	border: 2px solid black;
+	padding: 20px 85px;
+	color: black;
+	text-decoration: none;
+}
+.btn2{
+	border: 2px solid black;
+	padding: 20px 85px;
+	color: black;
+	text-decoration: none;
+}
+.btn1:hover{
+	background-color: #BA55D3;
+	color: white;
+	transition: 0.5s;
+}
+.btn2:hover{
+	background-color: #BA55D3;
+	color: white;
+	transition: 0.5s;
+
+}

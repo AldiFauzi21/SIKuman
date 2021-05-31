@@ -1,0 +1,40 @@
+body{
+	margin: 10px;
+	padding: 20px;
+	background: #efefef;
+	font-size: 14px;
+	color: black;
+	font-family: sans-serif;
+	font-weight: 300;
+	background-size: cover;
+	background-position:center;
+}
+.main{
+	max-width:1200px; 
+	margin: auto;
+	position:center;
+	}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:#191970;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s;
+}
+ul li a:hover{
+	background-color:#BA55D3;
+	color: white;
+	text-decoration: none;
+}
+ul li a.active{
+	background-color:#BA55D3;
+	color: white;
+}

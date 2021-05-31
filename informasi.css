@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header{
+	background-image: url("img/latar2.jpg");
+	height: 115vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s;
+	line-height: 50px;
+}
+ul li a:hover{
+	background-color:#1E90FF;
+	color: white;
+}
+ul li a.active{
+	background-color:#1E90FF;
+	color: white;
+}
+.main{
+	max-width:1200px; 
+	margin: auto;
+	position: relative;
+	top: 0px;
+	left: 70px;
+}
+.title{
+	position: absolute;
+	top: 250px;
+	right: 200px;
+	/*transform: translate(-50%, -50%);*/
+}
+.title h1{
+	color: white;
+	font-size: 100px;
+	text-decoration: none;
+
+}
+.title h4{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	position: absolute;
+	right: 70px;
+}
+.search-box{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background:#2F3640
+}
+.search-btn{
+color: #E84118;
+float: right;	
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: #2F3640
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.button{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%,-60%);
+}
+.btn1{
+	border: 2px solid black;
+	padding: 20px 85px;
+	color: black;
+	text-decoration: none;
+}
+.btn2{
+	border: 2px solid black;
+	padding: 20px 85px;
+	color: black;
+	text-decoration: none;
+}
+.btn1:hover{
+	background-color: #BA55D3;
+	color: white;
+	transition: 0.5s;
+}
+.btn2:hover{
+	background-color: #BA55D3;
+	color: white;
+	transition: 0.5s;
+
+}
+.gambar1 {
+	position: relative;
+	left: 10px;
+	top: 240px;
+	border-color: black;
+}
+.gambar2 {
+	position: relative;
+	left: 10px;
+	top: 350px;
+}
+.gambar3 {
+	position: relative;
+	left: 600px;
+	top: -280px;
+}
+.gambar4 {
+	position: relative;
+	left: 600px;
+	top: -180px;
+}
+.judul {
+	position: relative;
+	top: 700px;
+	color: grey;
+	font-weight: normal;
+	transform: translate(5%, 50%);
+	font-size: 30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.berita1 {
+	position: relative;
+	top: 780px;
+	left: 270px;
+	font-size: 17px;
+	font-family:Techno, Impact, sans-serif;
+}
+.berita2 {
+	position: relative;
+	top: 610px;
+	left: 865px;
+	font-size: 17px;
+	font-family:Techno, Impact, sans-serif;
+}
+.berita3 {
+	position: relative;
+	top: 880px;
+	left: 270px;
+	font-size: 17px;
+	font-family:Techno, Impact, sans-serif;
+}
+.berita4 {
+	position: relative;
+	top: 750px;
+	left: 865px;
+	font-size: 17px;
+	font-family:Techno, Impact, sans-serif;
+}
+
+        .zoom {
+
+          transition: transform .2s; /* Animation */
+
+          margin: 0 auto;
+
+        }
+
+        .zoom:hover {
+
+          transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+        }

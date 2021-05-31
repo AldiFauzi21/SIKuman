@@ -1,0 +1,104 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+body{
+	background-image: url("image/latar1.jpg");
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+}
+.main{
+	max-width:1300px; 
+	margin: auto;
+	position: relative;
+	top: -10px;
+	font-size: 17px;
+}
+
+h1 {
+	color: grey;
+	font-weight: normal;
+	transform: translate(5%, 50%);
+}
+h3 {
+	color: grey;
+	font-weight: normal;
+	transform: translate(5%, 50%);
+}
+.riwayat {
+	color: grey;
+	font-weight: normal;
+	transform: translate(5%, 50%);
+}
+.pasienn {
+	font-family: sans-serif;
+	margin-top: 50px;
+	font-weight: normal;
+	transform: translate(2%, 10%);
+	line-height: 40px;
+	position: relative;
+	left: -1100px;
+	top: -30px;
+}
+.tabeli{
+	font-family: sans-serif;
+	color: #444;
+	width: 100%;
+	border: 1px solid #f2f5f7;
+	margin-top: 5px;
+}
+.tabeli tr th{
+	background-color: #35a9db;
+	color: #fff;
+	font-weight: normal;
+}
+.tabeli, th, td{
+	padding: 2px 8px;
+	text-align: center;
+}
+.tabeli tr:nth-child(even){
+	background: #86dcec;
+}
+
+.tabell {
+	color: #444;
+	border: 1px solid #f2f5f7;
+	margin-top: 50px;
+	font-family: Helvetica;
+	box-sizing: border-box;
+	border:0; border-collapse: collapse;
+}
+
+.tabel2 {
+	color: #444;
+	border: 1px solid #f2f5f7;
+	margin-top: 50px;
+	font-family: Helvetica;
+	box-sizing: border-box;
+	border:0; border-collapse: collapse;
+}
+.tabel2 thead {
+	background:#0088FF; color: white;
+}
+.tabel2 th, td {
+	padding: 15px;
+}
+.tambah {
+	position: relative;
+	left: 1000px;
+	top: 90px;
+	font-family: Techno, Impact, sans-serif;
+	font-size: 20px;
+	word-spacing: 5px;
+}
+.tambah:hover{
+	color: red;
+}
+.tambah:link{
+	color: blue;
+}
+.tambah:active{
+	color: green;
+}
